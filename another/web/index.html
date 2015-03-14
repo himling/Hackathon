@@ -1,0 +1,76 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YolShare</title>
+
+    <!-- Font -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/default.css" rel="stylesheet">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!- JavaScript -->
+    <script src="../js/default.js"></script>
+    <script type="text/JavaScript" language="JavaScript">
+      $(document).ready(function() {
+        loadContent();
+      });
+    </script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- main navigation bar -->
+    <div id="mainNavigation"></div>
+
+    <div class="container">
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+          <span class="dropdown-content">Holiday destination</span>
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Dubai</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Japan</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Korea</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Singapore</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Taiwan</a></li>
+        </ul>
+      </div> <!-- end dropdown -->
+
+      <div class="panel panel-collapse">
+      	<div class="panel-body">
+          <h4>Day One</h4>
+          <h5>Recommended Attractions:</h5>
+          <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="../images/the-war-memorial-of-korea.jpg" style="height: 200px; width: 100%; display: block;">
+                <div class="transparency"></div>
+                <div class="caption">
+                  	<h3>The War Memorial of Korea</h3>
+                  	<p>Poignant exhibits, war memorabilia, art works, and military equipment make this a perfect place to learn about Korea’s history of war, most notably with North Korea.</p>
+                    <p><a href="#" class="btn btn-primary floatRight" role="button">Add</a></p>
+                </div>
+              </div>
+           </div>
+        </div> <!-- end panel body -->
+      </div> <!-- end panel -->
+
+      <button type="button" class="btn btn-default">new day</button>
+    </div> <!-- end container -->
+  </body>
+</html>

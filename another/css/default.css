@@ -1,0 +1,48 @@
+body {
+	font-family:"Open Sans", "Century Gothic", sans-serif;
+	font-weight:300;
+	padding-top:70px;
+}
+
+.dropdown {
+	margin-bottom:20px;
+}
+
+.thumbnail {
+	overflow:hidden;
+	position:relative;
+}
+
+.transparency {
+	background-color:black;
+	display:none;
+	height:100%;
+	left:0;
+	opacity:0.7;
+	position:absolute;
+	width:100%;
+	top:0;
+}
+
+.caption {
+	color:#FFFFFF !important;
+	display:none;
+	font-size:0.9em;
+	height:100%;
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%;
+}
+
+.navbar-default {
+	background-color:#FFFFFF;
+}
+
+.floatRight {
+	float:right;
+}
+
+.floatLeft {
+	float:left;
+}
