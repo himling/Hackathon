@@ -16,6 +16,11 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.content{
+	margin-left:30px;
+	margin-right:30px;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -162,6 +167,21 @@ hr.small {
     -o-background-size: cover;
 }
 
+.background{
+	background:url(../image/background.jpg) no-repeat;
+	background-size: cover;
+}
+
+.scrollable{
+	max-height:800px;
+	overflow-y:scroll;
+}
+
+.footerBlock{
+	background-color:#FFFFFF;
+	opacity: 0.85;
+}
+
 /* About */
 
 .about {
@@ -237,3 +257,21 @@ hr.small {
 footer {
     padding: 100px 0;
 }
+
+/* Search bar */
+#imaginary_container{
+    margin-top:0%; /* Don't copy this */
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
