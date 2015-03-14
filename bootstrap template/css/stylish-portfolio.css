@@ -175,6 +175,7 @@ hr.small {
 .scrollable{
 	max-height:800px;
 	overflow-y:scroll;
+	width: 98.8%;
 }
 
 .footerBlock{
